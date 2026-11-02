@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#e2231a">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="format-detection" content="telephone=yes">
+<title>Belgo Arames BH — Arames, Alambrados & Itens de Agropecuária | Belo Horizonte-MG</title>
+<link rel="canonical" href="https://belgoaramesmgbr.netlify.app/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="Belgo Arames BH — Arames e alambrados 20% abaixo do mercado">
+<meta property="og:description" content="Arame farpado, ovalado, galvanizado e itens de agropecuária em Belo Horizonte-MG. Pagamento na entrega. Orçamento pelo WhatsApp (32) 98546-457.">
+<meta property="og:url" content="https://belgoaramesmgbr.netlify.app/">
+<meta property="og:image" content="https://belgoaramesmgbr.netlify.app/img/fortte-pasto.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Belgo Arames BH — 20% abaixo do mercado">
+<meta name="twitter:description" content="Orçamento pelo WhatsApp (32) 98546-457. Pagamento na entrega.">
+<meta name="twitter:image" content="https://belgoaramesmgbr.netlify.app/img/fortte-pasto.jpg">
+<meta name="description" content="Arame farpado, ovalado, galvanizado e itens de agropecuária com 20% abaixo do preço de mercado. Empresa belga, Belo Horizonte - MG. Rede Belgo Cercas desde 1998.">
+<style>
+:root {
+  --red:#e2231a; --dark:#1c2b3a; --navy:#0f2233; --orange:#ff7a1a;
+  --bg:#f5f6f8; --white:#fff; --gray:#6b7684; --line:#e3e7ec;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Segoe UI', Arial, sans-serif; background:var(--bg); color:var(--dark); line-height:1.55; }
+img { max-width:100%; display:block; }
+a { color:inherit; }
+
+/* topbar */
+.topbar { background:var(--navy); color:#cfd9e4; font-size:.8rem; padding:.4rem 5%; display:flex; justify-content:space-between; flex-wrap:wrap; gap:.5rem; }
+.topbar b { color:#fff; }
+
+/* header */
+header { background:var(--white); position:sticky; top:0; z-index:50; box-shadow:0 2px 10px rgba(0,0,0,.08); }
+.nav { display:flex; align-items:center; justify-content:space-between; padding:.7rem 5%; gap:1rem; }
+.logo { font-size:1.5rem; font-weight:800; color:var(--dark); text-decoration:none; letter-spacing:-.5px; }
+.logo span { color:var(--red); }
+.logo small { display:block; font-size:.62rem; font-weight:600; color:var(--gray); letter-spacing:1px; text-transform:uppercase; }
+nav ul { display:flex; gap:1.4rem; list-style:none; align-items:center; }
+nav a { text-decoration:none; font-weight:600; font-size:.92rem; color:var(--dark); }
+nav a:hover { color:var(--red); }
+.btn-nav { background:var(--red); color:#fff !important; padding:.55rem 1.1rem; border-radius:8px; }
+.menu-btn { display:none; background:none; border:none; font-size:1.6rem; cursor:pointer; }
+
+/* hero */
+.hero { position:relative; min-height:520px; display:flex; align-items:center; color:#fff; overflow:hidden; }
+.hero img.bg { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+.hero .shade { position:absolute; inset:0; background:linear-gradient(90deg, rgba(10,20,30,.92) 0%, rgba(10,20,30,.7) 45%, rgba(10,20,30,.25) 100%); }
+.hero-inner { position:relative; padding:4rem 5%; max-width:760px; }
+.hero h1 { font-size:clamp(1.9rem, 4.5vw, 3.2rem); line-height:1.15; font-weight:800; }
+.hero h1 em { color:var(--orange); font-style:normal; }
+.hero p.sub { margin:1.1rem 0 1.6rem; font-size:1.05rem; color:#dfe7ee; max-width:560px; }
+.hero .tags { display:flex; flex-wrap:wrap; gap:.5rem; margin-bottom:1.8rem; }
+.hero .tag { background:rgba(255,255,255,.12); border:1px solid rgba(255,255,255,.25); padding:.35rem .8rem; border-radius:99px; font-size:.8rem; }
+.hero .cta-row { display:flex; gap:.8rem; flex-wrap:wrap; }
+.btn { display:inline-block; padding:.85rem 1.6rem; border-radius:10px; font-weight:700; text-decoration:none; cursor:pointer; border:none; font-size:1rem; }
+.btn-red { background:var(--red); color:#fff; }
+.btn-ghost { background:transparent; color:#fff; border:2px solid rgba(255,255,255,.5); }
+.btn:hover { filter:brightness(1.1); }
+
+/* promo strip */
+.promo { background:var(--red); color:#fff; text-align:center; padding:.7rem 5%; font-weight:700; font-size:.95rem; }
+.promo b { color:#ffe1b3; }
+
+/* sections */
+section { padding:4rem 5%; }
+.sec-title { text-align:center; max-width:720px; margin:0 auto 2.5rem; }
+.sec-title h2 { font-size:clamp(1.5rem, 3vw, 2.2rem); font-weight:800; }
+.sec-title p { color:var(--gray); margin-top:.6rem; }
+.kicker { color:var(--red); font-weight:700; text-transform:uppercase; letter-spacing:2px; font-size:.75rem; }
+
+/* about */
+.about { background:var(--white); }
+.about-grid { display:grid; grid-template-columns:1.1fr .9fr; gap:3rem; align-items:center; }
+.about-grid h2 { font-size:1.9rem; margin-bottom:1rem; }
+.about-grid p { color:#42505f; margin-bottom:1rem; }
+.about-stats { display:flex; gap:1.5rem; margin-top:1.5rem; flex-wrap:wrap; }
+.stat b { display:block; font-size:1.8rem; color:var(--red); }
+.stat span { font-size:.85rem; color:var(--gray); }
+.about-imgs { display:grid; grid-template-columns:1fr 1fr; gap:.8rem; }
+.about-imgs img { border-radius:12px; aspect-ratio:4/3; object-fit:cover; }
+
+/* catalog */
+.chips { display:flex; flex-wrap:wrap; gap:.5rem; justify-content:center; margin-bottom:2rem; }
+.chip { background:var(--white); border:1.5px solid var(--line); border-radius:99px; padding:.5rem 1.1rem; cursor:pointer; font-weight:600; font-size:.85rem; }
+.chip.active { background:var(--dark); color:#fff; border-color:var(--dark); }
+.grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(260px, 1fr)); gap:1.4rem; max-width:1200px; margin:0 auto; }
+.card { background:var(--white); border-radius:14px; overflow:hidden; box-shadow:0 2px 12px rgba(0,0,0,.06); display:flex; flex-direction:column; transition:transform .15s; }
+.card:hover { transform:translateY(-4px); }
+.card-img { position:relative; aspect-ratio:4/3; background:#eef1f4; }
+.card-img img { width:100%; height:100%; object-fit:contain; padding:.6rem; }
+.badge { position:absolute; top:.7rem; left:.7rem; background:var(--red); color:#fff; font-size:.7rem; font-weight:800; padding:.3rem .6rem; border-radius:6px; }
+.card-body { padding:1rem 1.1rem 1.2rem; display:flex; flex-direction:column; flex:1; }
+.card-body h3 { font-size:.95rem; line-height:1.3; margin-bottom:.4rem; }
+.desc { font-size:.8rem; color:var(--gray); margin-bottom:.8rem; flex:1; }
+.prices { display:flex; gap:1.2rem; align-items:baseline; margin-bottom:.4rem; }
+.prices small { display:block; font-size:.68rem; color:var(--gray); text-transform:uppercase; letter-spacing:.5px; }
+.prices s { color:#9aa5b1; font-size:.9rem; }
+.now strong { font-size:1.25rem; color:var(--red); }
+.un { font-size:.72rem; color:var(--gray); margin-bottom:.8rem; }
+.cta { background:var(--dark); color:#fff; border:none; border-radius:8px; padding:.7rem; font-weight:700; cursor:pointer; font-size:.9rem; }
+.cta:hover { background:var(--red); }
+
+/* solutions */
+.solucoes { background:var(--white); }
+.sol-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:1.2rem; max-width:1200px; margin:0 auto; }
+.sol { border:1.5px solid var(--line); border-radius:14px; padding:1.4rem; }
+.sol h3 { font-size:1.05rem; margin-bottom:.5rem; }
+.sol p { font-size:.85rem; color:var(--gray); }
+.sol .ic { font-size:1.8rem; margin-bottom:.7rem; }
+
+/* services */
+.serv-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:1.2rem; max-width:1100px; margin:0 auto; }
+.serv { background:var(--white); border-radius:14px; padding:1.5rem; box-shadow:0 2px 10px rgba(0,0,0,.05); }
+.serv h3 { margin-bottom:.5rem; font-size:1.05rem; }
+.serv p { font-size:.87rem; color:var(--gray); }
+
+/* gallery */
+.gal-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:1rem; max-width:1200px; margin:0 auto; }
+.gal-grid img { border-radius:12px; aspect-ratio:4/3; object-fit:cover; width:100%; }
+
+/* contact */
+.contact { background:var(--navy); color:#fff; }
+.contact-grid { display:grid; grid-template-columns:1fr 1fr; gap:3rem; max-width:1100px; margin:0 auto; }
+.contact h2 { font-size:1.8rem; margin-bottom:1rem; }
+.contact p { color:#c3cfda; margin-bottom:1.2rem; }
+.c-item { display:flex; gap:.8rem; margin-bottom:1rem; align-items:flex-start; }
+.c-item .ic { font-size:1.3rem; }
+form { display:flex; flex-direction:column; gap:.8rem; }
+input, textarea, select { padding:.85rem 1rem; border-radius:10px; border:none; font-size:.95rem; font-family:inherit; }
+textarea { min-height:110px; resize:vertical; }
+
+/* footer */
+footer { background:#0a1622; color:#8fa1b3; padding:2.5rem 5%; font-size:.85rem; }
+.foot-grid { display:flex; justify-content:space-between; gap:2rem; flex-wrap:wrap; max-width:1200px; margin:0 auto; }
+footer h4 { color:#fff; margin-bottom:.8rem; }
+footer a { text-decoration:none; display:block; margin-bottom:.4rem; }
+footer a:hover { color:#fff; }
+.copy { text-align:center; margin-top:2rem; padding-top:1.5rem; border-top:1px solid #1d2f40; }
+
+
+/* pagamento */
+.pay { background:var(--white); }
+.pay-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:1rem; max-width:1100px; margin:0 auto; }
+.pay-card { border:1.5px solid var(--line); border-radius:14px; padding:1.3rem; text-align:center; }
+.pay-card .ic { font-size:2rem; margin-bottom:.6rem; }
+.pay-card h3 { font-size:1rem; margin-bottom:.4rem; }
+.pay-card p { font-size:.8rem; color:var(--gray); }
+.pay-note { max-width:1100px; margin:1.6rem auto 0; background:#fff7ed; border:1.5px solid #ffd9b3; border-radius:14px; padding:1.2rem 1.5rem; display:flex; gap:1rem; align-items:flex-start; }
+.pay-note .ic { font-size:1.6rem; }
+.pay-note b { color:#c2410c; }
+
+/* depoimentos */
+.depo-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(290px,1fr)); gap:1.2rem; max-width:1200px; margin:0 auto; }
+.depo { background:var(--white); border-radius:14px; padding:0; overflow:hidden; box-shadow:0 2px 10px rgba(0,0,0,.05); position:relative; }
+.depo .stars { color:#f5a623; letter-spacing:2px; margin-bottom:.6rem; }
+.depo p { font-size:.9rem; color:#42505f; margin-bottom:1rem; }
+.depo-who { display:flex; gap:.7rem; align-items:center; }
+.depo-who .av { width:46px; height:46px; border-radius:50%; object-fit:cover; border:2px solid var(--line); }
+.depo-who .date { display:block; font-size:.7rem; color:#9aa5b1; margin-top:.1rem; }
+.depo-who b { display:block; font-size:.9rem; }
+.depo-who span { font-size:.75rem; color:var(--gray); }
+.depo-sum { text-align:center; margin-bottom:2rem; }
+.depo-sum b { font-size:2.6rem; color:var(--dark); }
+.depo-sum .stars { color:#f5a623; font-size:1.3rem; letter-spacing:3px; }
+.depo-sum span { display:block; color:var(--gray); font-size:.9rem; }
+
+/* whatsapp flutuante */
+.wa-float { position:fixed; right:1.2rem; bottom:1.2rem; z-index:90; background:#25d366; color:#fff; width:60px; height:60px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:2rem; box-shadow:0 6px 20px rgba(37,211,102,.45); text-decoration:none; }
+.wa-float:hover { transform:scale(1.08); }
+.wa-float.left { right:auto; left:1.2rem; bottom:calc(1.2rem + env(safe-area-inset-bottom)); }
+
+/* modal */
+.modal { position:fixed; inset:0; background:rgba(10,20,30,.6); display:none; align-items:center; justify-content:center; z-index:100; padding:1rem; }
+.modal.open { display:flex; }
+.modal-box { background:#fff; border-radius:16px; max-width:440px; width:100%; padding:2rem; position:relative; }
+.modal-box h3 { margin-bottom:.4rem; }
+.modal-box .mp { color:var(--red); font-weight:800; font-size:1.3rem; margin-bottom:1rem; }
+.modal-close { position:absolute; top:.8rem; right:1rem; background:none; border:none; font-size:1.4rem; cursor:pointer; }
+
+@media (max-width:820px) {
+  nav ul { display:none; position:absolute; top:100%; left:0; right:0; background:#fff; flex-direction:column; padding:1rem 5%; box-shadow:0 10px 20px rgba(0,0,0,.1); }
+  nav ul.open { display:flex; }
+  .menu-btn { display:block; }
+  .about-grid, .contact-grid { grid-template-columns:1fr; }
+}
+
+/* selos de credibilidade */
+#credibilidade { background:#fff; padding:3rem 5% 2.6rem; }
+.cred-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:1.3rem; max-width:1150px; margin:1.5rem auto 0; }
+.cred-item { background:#f4f6f8; border-radius:14px; padding:1.4rem 1rem; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; }
+.cred-item img { max-height:150px; max-width:100%; width:auto; height:auto; object-fit:contain; }
+.cred-item figcaption { font-size:.78rem; color:#5a6a7a; margin-top:.9rem; font-weight:600; line-height:1.35; }
+.depo .rev { width:100%; height:160px; object-fit:cover; display:block; }
+.depo .dbody { padding:1.1rem 1.3rem 1.3rem; }
+</style>
+</head>
+<body>
+
+
+<div class="topbar">
+  <span>📍 Belo Horizonte – MG &nbsp;|&nbsp; 📞 <a href="https://wa.me/553298546457" style="color:#fff;text-decoration:none"><b>(32) 98546-457</b></a> &nbsp;|&nbsp; ✉ <a href="mailto:aramesbelga@gmail.com" style="color:#cfd9e4;text-decoration:none">aramesbelga@gmail.com</a></span>
+  <span>Seg–Sex 7h–18h · Sáb 7h–12h</span>
+</div>
+
+<header>
+  <div class="nav">
+    <a class="logo" href="#">belgo<span>arames</span><small>Belo Horizonte · MG</small></a>
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <nav>
+      <ul id="menu">
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#solucoes">Soluções</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#pagamento">Pagamento</a></li>
+        <li><a href="#depoimentos">Avaliações</a></li>
+        <li><a href="#loja">Nossa Loja</a></li>
+        <li><a href="#contato" class="btn-nav">Orçamento</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <img class="bg" src="img/fortte-pasto.jpg" data-img="fortte-pasto.jpg" alt="Arame farpado Belgo Fortte em pasto com rebanho">
+  <div class="shade"></div>
+  <div class="hero-inner">
+    <div class="tags">
+      <span class="tag">⚡ 20% abaixo do mercado</span>
+      <span class="tag">🏭 Empresa belga em BH-MG</span>
+      <span class="tag">🚚 Entrega para todo o estado</span>
+    </div>
+    <h1>Arames, alambrados e itens de agropecuária <em>20% mais baratos</em> que o mercado.</h1>
+    <p class="sub">Arame farpado Fortte e Rodeio, ovalado Z-700, galvanizado em todas as bitolas, fruticultura, cerca elétrica e cordas — com preço direto de fábrica e atendimento da rede Belgo Cercas.</p>
+    <div class="cta-row">
+      <a class="btn btn-red" href="#catalogo">Ver catálogo de preços</a>
+      <a class="btn btn-ghost" href="#contato">Falar com vendedor</a>
+    </div>
+  </div>
+</div>
+
+<div class="promo">🔥 Oferta da semana: <b>Kit 50kg BWG 12</b> com o menor preço do catálogo — peça seu orçamento hoje.</div>
+
+<section class="about" id="sobre">
+  <div class="about-grid">
+    <div>
+      <span class="kicker">Quem somos</span>
+      <h2>A Belgo Cercas é a primeira rede de franquias especializada em cercamento no Brasil</h2>
+      <p>Fundada em 1998 pela Belgo Arames, a Belgo Cercas se consolidou como a melhor solução em cercamentos para tornar o seu patrimônio mais protegido e valorizado.</p>
+      <p>Nossa unidade de <strong>Belo Horizonte – MG</strong> é uma empresa belga com operação local: estoque próprio, preços até <strong>20% abaixo do valor de mercado</strong> e a garantia da marca que grava seu nome em cada poste, tampa e fixador.</p>
+      <div class="about-stats">
+        <div class="stat"><b>1998</b><span>fundação da rede</span></div>
+        <div class="stat"><b>-20%</b><span>vs preço de mercado</span></div>
+        <div class="stat"><b>BH-MG</b><span>base de operações</span></div>
+        <div class="stat"><b>24h</b><span>resposta de orçamento</span></div>
+      </div>
+    </div>
+    <div class="about-imgs">
+      <img src="img/loja-fachada.jpg" data-img="loja-fachada.jpg" alt="Fachada da loja Belgo Cercas em Belo Horizonte">
+      <img src="img/loja-interno.jpg" data-img="loja-interno.jpg" alt="Interior da loja com balcão de atendimento">
+      <img src="img/showroom.jpg" data-img="showroom.jpg" alt="Showroom com grades Belgo Star, Open e Durafor">
+      <img src="img/callcenter.jpg" data-img="callcenter.jpg" alt="Central de atendimento Belgo">
+    </div>
+  </div>
+</section>
+
+<section id="credibilidade">
+  <div class="sec-title">
+    <span class="kicker">Credibilidade</span>
+    <h2>Instituição que o campo reconhece</h2>
+    <p>A Belgo Arames é referência nacional em arames e cercamento desde 1998 — e os prêmios mostram isso.</p>
+  </div>
+  <div class="cred-grid">
+    <figure class="cred-item"><img src="img/selo-globorural.png" alt="Prêmio Melhores do Agronegócio 2025 - Revista Globo Rural" loading="lazy"><figcaption>Melhores do Agronegócio 2025<br>Revista Globo Rural</figcaption></figure>
+    <figure class="cred-item"><img src="img/selo-belgo-bekaert.png" alt="Belgo Bekaert Arames S.A. - Arames de Qualidade" loading="lazy"><figcaption>Belgo Bekaert Arames S.A.<br>&quot;Arames de Qualidade&quot;</figcaption></figure>
+    <figure class="cred-item"><img src="img/selo-equidade-br.png" alt="Empresa certificada Equidade BR - Human Rights Campaign" loading="lazy"><figcaption>Empresa certificada Equidade BR<br>Human Rights Campaign</figcaption></figure>
+    <figure class="cred-item"><img src="img/selo-sustentavel.png" alt="Qualidade ABNT Ambiental - Produto 100% Sustentável" loading="lazy"><figcaption>Qualidade ABNT Ambiental<br>Produto 100% Sustentável</figcaption></figure>
+  </div>
+</section>
+
+<section id="catalogo">
+  <div class="sec-title">
+    <span class="kicker">Catálogo 2026</span>
+    <h2>Preços 20% abaixo do mercado</h2>
+    <p>Todos os itens abaixo mostram o preço praticado no mercado (riscado) e o nosso preço na loja. Atacado com desconto progressivo acima de 10 rolos.</p>
+  </div>
+  <div class="chips">
+    <button class="chip active" data-filter="all">Todos</button>
+    <button class="chip" data-filter="farpado">Arame Farpado</button><button class="chip" data-filter="alambrado">Arame Ovalado & Alambrados</button><button class="chip" data-filter="galvanizado">Arame Galvanizado</button><button class="chip" data-filter="fruticultura">Fruticultura</button><button class="chip" data-filter="eletrico">Cerca Elétrica</button><button class="chip" data-filter="pecuaria">Pecuária & Cordas</button><button class="chip" data-filter="solda">Arame de Solda</button>
+  </div>
+  <div class="grid" id="grid">
+
+      <article class="card" data-cat="farpado">
+        <div class="card-img"><img src="img/fortte-500m.jpg" data-img="fortte-500m.jpg" alt="Arame Farpado Belgo Fortte 500m — Aço Reforçado Galvanizado" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Arame Farpado Belgo Fortte 500m — Aço Reforçado Galvanizado</h3>
+          <p class="desc">Aço reforçado 1,60mm com torção alternada e ruptura mínima de 350kgf; farpas a cada 125mm. Resistência de sobra ao impacto dos animais no pasto.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 362,50</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 290,00</strong></div>
+          </div>
+          <span class="un">rolo 500m</span>
+          <button class="cta" data-nome="Arame Farpado Belgo Fortte 500m — Aço Reforçado Galvanizado" data-preco="R$ 290,00">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="farpado">
+        <div class="card-img"><img src="img/fortte-preto.jpg" data-img="fortte-preto.jpg" alt="Arame Farpado Belgo Fortte 500m — Zincado Triplo 1,60mm" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Arame Farpado Belgo Fortte 500m — Zincado Triplo 1,60mm</h3>
+          <p class="desc">Farpado Fortte com zincagem triplo: proteção máxima contra ferrugem para regiões úmidas e atmosfera agressiva. Rolo de 500m com alça.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 347,71</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 278,17</strong></div>
+          </div>
+          <span class="un">rolo 500m</span>
+          <button class="cta" data-nome="Arame Farpado Belgo Fortte 500m — Zincado Triplo 1,60mm" data-preco="R$ 278,17">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="farpado">
+        <div class="card-img"><img src="img/cat-rodeio-500.jpg" data-img="cat-rodeio-500.jpg" alt="Arame Farpado Belgo Rodeio 500m" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Arame Farpado Belgo Rodeio 500m</h3>
+          <p class="desc">Arame farpado de dupla torção e alta resistência: mantém a tensão mesmo em terreno acidentado. 500m contínuos sem emenda, ótimo rendimento.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 402,03</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 321,62</strong></div>
+          </div>
+          <span class="un">rolo 500m</span>
+          <button class="cta" data-nome="Arame Farpado Belgo Rodeio 500m" data-preco="R$ 321,62">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="farpado">
+        <div class="card-img"><img src="img/rodeio-250m.jpg" data-img="rodeio-250m.jpg" alt="Arame Farpado Belgo Rodeio 250m" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Arame Farpado Belgo Rodeio 250m</h3>
+          <p class="desc">Rodeio em rolo de 250m: ideal para cercas médias, currais e divisões internas. Mesma dupla torção e resistência do rolo longo, com menos investimento inicial.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 220,00</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 176,00</strong></div>
+          </div>
+          <span class="un">rolo 250m</span>
+          <button class="cta" data-nome="Arame Farpado Belgo Rodeio 250m" data-preco="R$ 176,00">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="farpado">
+        <div class="card-img"><img src="img/cat-motto-500.jpg" data-img="cat-motto-500.jpg" alt="Arame Farpado Motto Belgo 500m" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Arame Farpado Motto Belgo 500m</h3>
+          <p class="desc">Motto galvanizado: o melhor custo-benefício para cercas básicas de curral, pomar e áreas secundárias. Rolo de 500m com alça, instalação rápida.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 172,00</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 137,60</strong></div>
+          </div>
+          <span class="un">rolo 500m</span>
+          <button class="cta" data-nome="Arame Farpado Motto Belgo 500m" data-preco="R$ 137,60">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="alambrado">
+        <div class="card-img"><img src="img/cat-z700.jpg" data-img="cat-z700.jpg" alt="Arame Ovalado Belgo Z-700 — 1000m" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Arame Ovalado Belgo Z-700 — 1000m</h3>
+          <p class="desc">Ovalado Z-700 para alta tensão, 1.000m por rolo: referência no cercamento de gado com 4 a 6 fios. Perfil oval resiste melhor ao impacto e alonga menos.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 400,00</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 320,00</strong></div>
+          </div>
+          <span class="un">rolo 1000m</span>
+          <button class="cta" data-nome="Arame Ovalado Belgo Z-700 — 1000m" data-preco="R$ 320,00">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="alambrado">
+        <div class="card-img"><img src="img/cat-z600.jpg" data-img="cat-z600.jpg" alt="Arame Ovalado Belgo Z-600 — 1250m" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Arame Ovalado Belgo Z-600 — 1250m</h3>
+          <p class="desc">Ovalado Z-600 em rolo de 1.250m: maior rendimento por rolo em alta tensão e divisões de pasto. O perfil oval dificulta o arranco do animal.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 997,69</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 798,15</strong></div>
+          </div>
+          <span class="un">rolo 1250m</span>
+          <button class="cta" data-nome="Arame Ovalado Belgo Z-600 — 1250m" data-preco="R$ 798,15">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="alambrado">
+        <div class="card-img"><img src="img/cat-ovalado-fortte.jpg" data-img="cat-ovalado-fortte.jpg" alt="Arame Ovalado Belgo Fortte" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Arame Ovalado Belgo Fortte</h3>
+          <p class="desc">Ovalado Fortte reforçado para alta tensão exigente: perfil mais robusto e zincagem pesada. Indicado para grandes operações e climas agressivos.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 536,07</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 428,86</strong></div>
+          </div>
+          <span class="un">rolo</span>
+          <button class="cta" data-nome="Arame Ovalado Belgo Fortte" data-preco="R$ 428,86">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="galvanizado">
+        <div class="card-img"><img src="img/cat-bwg12.jpg" data-img="cat-bwg12.jpg" alt="Arame Galvanizado Belgo BWG 12 — 2,76mm (1kg)" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Arame Galvanizado Belgo BWG 12 — 2,76mm (1kg)</h3>
+          <p class="desc">Galvanizado macio 2,76mm (BWG 12): pesada para construção de curral, escoras e amarrações estruturais. Venda por quilograma.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 16,59</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 13,27</strong></div>
+          </div>
+          <span class="un">kg</span>
+          <button class="cta" data-nome="Arame Galvanizado Belgo BWG 12 — 2,76mm (1kg)" data-preco="R$ 13,27">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="galvanizado">
+        <div class="card-img"><img src="img/cat-kit10-bwg12.jpg" data-img="cat-kit10-bwg12.jpg" alt="Kit 10kg Arame Galvanizado Zincado Macio Belgo BWG 12" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Kit 10kg Arame Galvanizado Zincado Macio Belgo BWG 12</h3>
+          <p class="desc">Caixa cheia de 10 kg do galvanizado 2,76mm (BWG 12): economia real para obras com muitas amarrações. Sai bem mais barato que comprar avulso.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 215,94</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 172,75</strong></div>
+          </div>
+          <span class="un">kit 10kg</span>
+          <button class="cta" data-nome="Kit 10kg Arame Galvanizado Zincado Macio Belgo BWG 12" data-preco="R$ 172,75">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="galvanizado">
+        <div class="card-img"><img src="img/cat-kit50-bwg12.jpg" data-img="cat-kit50-bwg12.jpg" alt="Kit 50kg Arame Galvanizado Industrial 12 Belgo 2,76mm" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Kit 50kg Arame Galvanizado Industrial 12 Belgo 2,76mm</h3>
+          <p class="desc">Kit industrial de 50 kg do 2,76mm (BWG 12): fazendas grandes, cooperativas e empresas de cercamento. Melhor preço por quilo do catálogo.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 1.023,15</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 818,52</strong></div>
+          </div>
+          <span class="un">kit 50kg</span>
+          <button class="cta" data-nome="Kit 50kg Arame Galvanizado Industrial 12 Belgo 2,76mm" data-preco="R$ 818,52">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="galvanizado">
+        <div class="card-img"><img src="img/cat-bwg14.jpg" data-img="cat-bwg14.jpg" alt="Arame Galvanizado Belgo BWG 14 — 2,10mm (1kg)" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Arame Galvanizado Belgo BWG 14 — 2,10mm (1kg)</h3>
+          <p class="desc">Galvanizado 2,10mm (BWG 14), a bitola mais versátil: cerca geral, reforço de tesouras e amarrações agrícolas. Venda por quilograma.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 20,05</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 16,04</strong></div>
+          </div>
+          <span class="un">kg</span>
+          <button class="cta" data-nome="Arame Galvanizado Belgo BWG 14 — 2,10mm (1kg)" data-preco="R$ 16,04">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="galvanizado">
+        <div class="card-img"><img src="img/cat-kit10-bwg14.jpg" data-img="cat-kit10-bwg14.jpg" alt="Kit 10kg Arame Galvanizado Zincado Macio Belgo BWG 14" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Kit 10kg Arame Galvanizado Zincado Macio Belgo BWG 14</h3>
+          <p class="desc">Caixa de 10 kg do 2,10mm (BWG 14) para obras contínuas: perímetros, divisões internas e reparos em escala.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 237,41</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 189,93</strong></div>
+          </div>
+          <span class="un">kit 10kg</span>
+          <button class="cta" data-nome="Kit 10kg Arame Galvanizado Zincado Macio Belgo BWG 14" data-preco="R$ 189,93">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="galvanizado">
+        <div class="card-img"><img src="img/cat-bwg16.jpg" data-img="cat-bwg16.jpg" alt="Arame Galvanizado Belgo BWG 16 — 1,65mm (1kg)" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Arame Galvanizado Belgo BWG 16 — 1,65mm (1kg)</h3>
+          <p class="desc">Galvanizado 1,65mm (BWG 16): cercas médias, tutoreio de pomares e reparos. Rendimento de cerca de 58m por quilo. Venda por quilograma.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 22,99</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 18,39</strong></div>
+          </div>
+          <span class="un">kg</span>
+          <button class="cta" data-nome="Arame Galvanizado Belgo BWG 16 — 1,65mm (1kg)" data-preco="R$ 18,39">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="galvanizado">
+        <div class="card-img"><img src="img/cat-kit10-bwg16.jpg" data-img="cat-kit10-bwg16.jpg" alt="Kit 10kg Arame Galvanizado Zincado Macio Belgo BWG 16" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Kit 10kg Arame Galvanizado Zincado Macio Belgo BWG 16</h3>
+          <p class="desc">Caixa de 10 kg do 1,65mm (BWG 16): pomares, vinhedos e cercamentos médios com rendimento econômico.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 254,60</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 203,68</strong></div>
+          </div>
+          <span class="un">kit 10kg</span>
+          <button class="cta" data-nome="Kit 10kg Arame Galvanizado Zincado Macio Belgo BWG 16" data-preco="R$ 203,68">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="galvanizado">
+        <div class="card-img"><img src="img/cat-bwg18.jpg" data-img="cat-bwg18.jpg" alt="Arame Galvanizado Belgo BWG 18 — 1,24mm (1kg)" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Arame Galvanizado Belgo BWG 18 — 1,24mm (1kg)</h3>
+          <p class="desc">Galvanizado 1,24mm (BWG 18) para cercas leves, recintos de pequenos animais e quintais. Cerca de 105m por quilo. Venda por quilograma.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 21,59</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 17,27</strong></div>
+          </div>
+          <span class="un">kg</span>
+          <button class="cta" data-nome="Arame Galvanizado Belgo BWG 18 — 1,24mm (1kg)" data-preco="R$ 17,27">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="galvanizado">
+        <div class="card-img"><img src="img/cat-kit10-bwg18.jpg" data-img="cat-kit10-bwg18.jpg" alt="Kit 10kg Arame Galvanizado Zincado Macio Belgo BWG 18" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Kit 10kg Arame Galvanizado Zincado Macio Belgo BWG 18</h3>
+          <p class="desc">Caixa de 10 kg do 1,24mm (BWG 18) para cercas leves, hortas e recintos menores. Melhor custo por metro do catálogo.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 355,68</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 284,54</strong></div>
+          </div>
+          <span class="un">kit 10kg</span>
+          <button class="cta" data-nome="Kit 10kg Arame Galvanizado Zincado Macio Belgo BWG 18" data-preco="R$ 284,54">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="galvanizado">
+        <div class="card-img"><img src="img/cat-bwg20.jpg" data-img="cat-bwg20.jpg" alt="Arame Galvanizado Belgo BWG 20 — 0,89mm (1kg)" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Arame Galvanizado Belgo BWG 20 — 0,89mm (1kg)</h3>
+          <p class="desc">Galvanizado fino 0,89mm (BWG 20): amarrações finas, redes, aves e trabalhos de precisão. Venda por quilograma.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 35,06</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 28,05</strong></div>
+          </div>
+          <span class="un">kg</span>
+          <button class="cta" data-nome="Arame Galvanizado Belgo BWG 20 — 0,89mm (1kg)" data-preco="R$ 28,05">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="galvanizado">
+        <div class="card-img"><img src="img/cat-n18.jpg" data-img="cat-n18.jpg" alt="Arame Galvanizado Belgo N°18 (1kg)" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Arame Galvanizado Belgo N°18 (1kg)</h3>
+          <p class="desc">Belgo N°18 galvanizado por quilo: uso geral rural, cercas e reparos. Produto oficial da marca, com preço de franquia 20% abaixo do mercado.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 29,10</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 23,28</strong></div>
+          </div>
+          <span class="un">kg</span>
+          <button class="cta" data-nome="Arame Galvanizado Belgo N°18 (1kg)" data-preco="R$ 23,28">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="galvanizado">
+        <div class="card-img"><img src="img/cat-n14.jpg" data-img="cat-n14.jpg" alt="Arame Galvanizado Belgo N°14 (1kg)" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Arame Galvanizado Belgo N°14 (1kg)</h3>
+          <p class="desc">Belgo N°14 galvanizado por quilo: a bitola pesada para escoras e amarrações fortes. Produto oficial da marca, com preço de franquia.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 24,25</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 19,40</strong></div>
+          </div>
+          <span class="un">kg</span>
+          <button class="cta" data-nome="Arame Galvanizado Belgo N°14 (1kg)" data-preco="R$ 19,40">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="fruticultura">
+        <div class="card-img"><img src="img/cat-frut-duplo.jpg" data-img="cat-frut-duplo.jpg" alt="Arame Galvanizado Duplo p/ Fruticultura 1000m — Belgo Frutifio" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Arame Galvanizado Duplo p/ Fruticultura 1000m — Belgo Frutifio</h3>
+          <p class="desc">Frutifio duplo galvanizado, 1.000m: dois fios na mesma linha no tutoreio de pomares e hortaliças — economiza material e tempo de instalação.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 653,53</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 522,82</strong></div>
+          </div>
+          <span class="un">rolo 1000m</span>
+          <button class="cta" data-nome="Arame Galvanizado Duplo p/ Fruticultura 1000m — Belgo Frutifio" data-preco="R$ 522,82">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="fruticultura">
+        <div class="card-img"><img src="img/cat-frut-liso.jpg" data-img="cat-frut-liso.jpg" alt="Arame Liso para Fruticultura Frutifio 2,10mm — 1000m" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Arame Liso para Fruticultura Frutifio 2,10mm — 1000m</h3>
+          <p class="desc">Frutifio liso 2,10mm, 1.000m: fruteiras, videiras e hortaliças adensadas. Acabamento liso que não corta folhas nem galhos novos.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 702,63</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 562,10</strong></div>
+          </div>
+          <span class="un">rolo 1000m</span>
+          <button class="cta" data-nome="Arame Liso para Fruticultura Frutifio 2,10mm — 1000m" data-preco="R$ 562,10">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="eletrico">
+        <div class="card-img"><img src="img/cat-eletrix.jpg" data-img="cat-eletrix.jpg" alt="Arame Cerca Elétrica Belgo Eletrix — 500m" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Arame Cerca Elétrica Belgo Eletrix — 500m</h3>
+          <p class="desc">Arame liso condutor para cerca elétrica, 500m: baixa resistência elétrica mantém a carga percorrendo todo o circuito. Compatível com energizadores de grande porte.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 460,83</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 368,66</strong></div>
+          </div>
+          <span class="un">rolo 500m</span>
+          <button class="cta" data-nome="Arame Cerca Elétrica Belgo Eletrix — 500m" data-preco="R$ 368,66">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="pecuaria">
+        <div class="card-img"><img src="img/remanga.jpg" data-img="remanga.jpg" alt="Corda de Aço Zincada Belgo Remanga — 250m" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Corda de Aço Zincada Belgo Remanga — 250m</h3>
+          <p class="desc">Cordoalha de aço zincado 4,0mm (5/32"), 250m: amarração, escora e arraste na pecuária. Múltiplas vezes mais forte que fio simples.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 380,00</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 304,00</strong></div>
+          </div>
+          <span class="un">rolo 250m</span>
+          <button class="cta" data-nome="Corda de Aço Zincada Belgo Remanga — 250m" data-preco="R$ 304,00">Pedir orçamento</button>
+        </div>
+      </article>
+
+      <article class="card" data-cat="solda">
+        <div class="card-img"><img src="img/solda-mig.jpg" data-img="solda-mig.jpg" alt="Arame de Solda MIG Belgo BME-C4" loading="lazy">
+          <span class="badge">-20% vs mercado</span>
+        </div>
+        <div class="card-body">
+          <h3>Arame de Solda MIG Belgo BME-C4</h3>
+          <p class="desc">Arame sólido MIG BME-C4 com revestimento de cobre para solda semiautomática e CO₂: arco estável, menos respingos e qualidade de usina.</p>
+          <div class="prices">
+            <div><small>mercado</small><s>R$ 89,90</s></div>
+            <div class="now"><small>Belgo BH</small><strong>R$ 71,92</strong></div>
+          </div>
+          <span class="un">caixa</span>
+          <button class="cta" data-nome="Arame de Solda MIG Belgo BME-C4" data-preco="R$ 71,92">Pedir orçamento</button>
+        </div>
+      </article>
+  </div>
+</section>
+
+<section class="solucoes" id="solucoes">
+  <div class="sec-title">
+    <span class="kicker">Nossas soluções</span>
+    <h2>Patrimônio seguro e valorizado</h2>
+    <p>Gradis, telas e alambrados com tecnologia e elevada vida útil, indicados inclusive para regiões de atmosfera agressiva.</p>
+  </div>
+  <div class="sol-grid">
+    <div class="sol"><div class="ic">🛡️</div><h3>Gradis</h3><p>Proteção com tecnologia e durabilidade, inovação com elevada vida útil. Indicado para regiões de atmosfera agressiva.</p></div>
+    <div class="sol"><div class="ic">🔲</div><h3>Telas Soldadas</h3><p>Durabilidade e beleza em qualquer aplicação. Adequada para toda topografia de terreno. Rápida instalação.</p></div>
+    <div class="sol"><div class="ic">🪢</div><h3>Alambrados</h3><p>Fáceis de instalar, práticos e muito resistentes. Aço galvanizado por imersão a quente ou com revestimento Bezinal®.</p></div>
+    <div class="sol"><div class="ic">⚡</div><h3>Cerca Pronta</h3><p>Garanta um cercamento mais eficiente com as cercas prontas Belgo!</p></div>
+    <div class="sol"><div class="ic">🐄</div><h3>Arame Liso</h3><p>Para contenção de bovinos, ovinos, caprinos e diversos outros animais, os arames lisos são as opções mais indicadas.</p></div>
+    <div class="sol"><div class="ic">🏹</div><h3>Arame Farpado</h3><p>Excelentes opções para cercamento de terrenos regulares e acidentados, estáveis por toda a área instalada.</p></div>
+    <div class="sol"><div class="ic">🐔</div><h3>Telas Hexagonais</h3><p>Indicadas para contenção e proteção de animais domésticos, como aves e suínos.</p></div>
+    <div class="sol"><div class="ic">🚪</div><h3>Fabricação de Portões</h3><p>Fabricamos portões sob medida para a sua propriedade ou empresa.</p></div>
+  </div>
+</section>
+
+<section id="servicos">
+  <div class="sec-title">
+    <span class="kicker">Solução completa</span>
+    <h2>Do projeto à instalação</h2>
+    <p>Oferecemos desde apoio consultivo no projeto até a instalação com mão de obra qualificada.</p>
+  </div>
+  <div class="serv-grid">
+    <div class="serv"><h3>📋 Visita à obra</h3><p>Agende uma visita e iremos à sua obra sugerir o cercamento mais adequado para o terreno e o rebanho.</p></div>
+    <div class="serv"><h3>👷 Mão de obra de instalação</h3><p>Contamos com mão de obra especializada para garantir uma perfeita instalação do seu cercamento.</p></div>
+    <div class="serv"><h3>🚪 Fabricação de portões</h3><p>Portões sob medida, fabricados com material Belgo e instalação inclusa no serviço.</p></div>
+  </div>
+</section>
+
+<section class="about" id="loja">
+  <div class="sec-title">
+    <span class="kicker">Nossa loja em Belo Horizonte</span>
+    <h2>Atendimento presencial e central de vendas</h2>
+    <p>Veja a marca gravada na tampa, fixador e poste — assim você tem a garantia de estar levando produtos com a excelência que já é identidade da empresa.</p>
+  </div>
+  <div class="gal-grid">
+    <img src="img/loja-fachada.jpg" data-img="loja-fachada.jpg" alt="Fachada Belgo Cercas BH">
+    <img src="img/loja-interno.jpg" data-img="loja-interno.jpg" alt="Balcão de atendimento">
+    <img src="img/loja-entrada.jpg" data-img="loja-entrada.jpg" alt="Entrada da loja">
+    <img src="img/display-exterior.jpg" data-img="display-exterior.jpg" alt="Display exterior com Fortte e Hexanet">
+    <img src="img/showroom.jpg" data-img="showroom.jpg" alt="Showroom de grades">
+    <img src="img/callcenter.jpg" data-img="callcenter.jpg" alt="Central de atendimento">
+    <img src="img/alambrado-campo.jpg" data-img="alambrado-campo.jpg" alt="Alambrado instalado em estrada rural">
+  </div>
+</section>
+
+
+<section class="pay" id="pagamento">
+  <div class="sec-title">
+    <span class="kicker">Compra e pagamento</span>
+    <h2>Pague só quando a mercadoria chegar</h2>
+    <p>A compra é confirmada pelo WhatsApp e o <strong>pagamento é feito no ato da entrega</strong>, no momento do recebimento da mercadoria. Você inspeciona tudo e só então paga — sem adiantamento, sem surpresa.</p>
+  </div>
+  <div class="pay-grid">
+    <div class="pay-card"><div class="ic">💠</div><h3>PIX</h3><p>Chave enviada no WhatsApp na hora da entrega. Aprovação em segundos.</p></div>
+    <div class="pay-card"><div class="ic">💳</div><h3>Cartão de crédito</h3><p>Elo, Visa, Mastercard e demais bandeiras. Parcelamos conforme o valor.</p></div>
+    <div class="pay-card"><div class="ic">🧾</div><h3>Boleto bancário</h3><p>Emitido na entrega, com vencimento à vista.</p></div>
+    <div class="pay-card"><div class="ic">🏦</div><h3>Transferência bancária</h3><p>PIX ou TED direto na conta informada pelo entregador.</p></div>
+    <div class="pay-card"><div class="ic">💵</div><h3>Dinheiro</h3><p>Para quem prefere pagar em espécie no recebimento.</p></div>
+  </div>
+  <div class="pay-note"><span class="ic">✅</span><div><b>Segurança total:</b> você só paga depois de receber e conferir a mercadoria. Nota fiscal emitida em todas as vendas.</div></div>
+</section>
+
+<section id="depoimentos">
+  <div class="sec-title">
+    <span class="kicker">Quem já comprou</span>
+    <h2>Avaliações de clientes</h2>
+    <p>Referências reais de produtores, sítios e empresas que cercaram com a gente.</p>
+  </div>
+  <div class="depo-sum">
+    <b>4,9 / 5</b>
+    <div class="stars">★★★★★</div>
+    <span>média de avaliações de clientes atendidos pela loja</span>
+  </div>
+  <div class="depo-grid">
+    <div class="depo">
+      <img class="rev" src="img/cliente-curral.jpg" alt="Rogério Antunes" style="object-position:center 38%" loading="lazy">
+      <div class="dbody">
+        <div class="stars">★★★★★</div>
+        <p>"Cercamos o curral e a bebedeira com o Rodeio 500m e trocamos o farpado do pasto principal pelo Fortte. O motorista conferiu tudo comigo antes de eu pagar — PIX só na frente do caminhão, e a nota chegou no mesmo dia."</p>
+        <div class="depo-who"><div><b>Rogério Antunes</b><span>Criador de gado leiteiro · Jaboticatubas-MG</span><span class="date">19/07/2026</span></div></div>
+      </div>
+    </div>
+    <div class="depo">
+      <img class="rev" src="img/cliente-horta.jpg" alt="Waldemar Teixeira" style="object-position:center 32%" loading="lazy">
+      <div class="dbody">
+        <div class="stars">★★★★★</div>
+        <p>"Quarenta anos plantando couve e tomate, e essa foi a compra mais certeira do ano: o liso Frutifio 2,10mm segurou o tutoreio inteiro sem pesar no bolso. Chegou em dois dias."</p>
+        <div class="depo-who"><div><b>Waldemar Teixeira</b><span>Horticultor · Prados-MG</span><span class="date">03/09/2026</span></div></div>
+      </div>
+    </div>
+    <div class="depo">
+      <img class="rev" src="img/cliente-tratores.jpg" alt="Ademir Costa" style="object-position:center 35%" loading="lazy">
+      <div class="dbody">
+        <div class="stars">★★★★★</div>
+        <p>"Comprei o ovalado Z-700 de 1.000 metros pro alambrado de alta tensão. Material original, marca gravada no rolo, e paguei no cartão na entrega, sem complicação."</p>
+        <div class="depo-who"><div><b>Ademir Costa</b><span>Produtor rural · Manhuaçu-MG</span><span class="date">12/09/2026</span></div></div>
+      </div>
+    </div>
+    <div class="depo">
+      <img class="rev" src="img/cliente-trator.jpg" alt="Juliana Martins" style="object-position:center 35%" loading="lazy">
+      <div class="dbody">
+        <div class="stars">★★★★★</div>
+        <p>"Fechei 50kg do galvanizado BWG 12 e dois rolos de farpado para fechar a propriedade. Orçamento pelo WhatsApp em minutos e preço bem abaixo do mercado da região."</p>
+        <div class="depo-who"><div><b>Juliana Martins</b><span>Produtora rural · Bom Jesus do Galho-MG</span><span class="date">30/09/2026</span></div></div>
+      </div>
+    </div>
+    <div class="depo">
+      <img class="rev" src="img/clientes-grupo.jpg" alt="Grupo de produtores rurais · visita à loja" style="object-position:center 42%" loading="lazy">
+      <div class="dbody">
+        <div class="stars">★★★★★</div>
+        <p>"Fomos um grupo inteiro conhecer a loja e saímos com orçamento fechado: farpado, alambrado e kit de galvanizado para o cercamento da comunidade. Atendimento direto, sem enrolação."</p>
+        <div class="depo-who"><div><b>Grupo de produtores rurais · visita à loja</b><span>Patos de Minas-MG</span><span class="date">28/08/2026</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contato">
+  <div class="contact-grid">
+    <div>
+      <span class="kicker" style="color:var(--orange)">Fale conosco</span>
+      <h2>Teremos enorme prazer em atender você!</h2>
+      <p>Preencha o formulário ou chame direto. Orçamento respondido em até 24h úteis.</p>
+      <div class="c-item"><span class="ic">📞</span><div><b>Telefone / WhatsApp</b><br>(32) 98546-457 (WhatsApp Business)</div></div>
+      <div class="c-item"><span class="ic">✉️</span><div><b>E-mail</b><br>aramesbelga@gmail.com</div></div>
+      <div class="c-item"><span class="ic">📍</span><div><b>Loja física</b><br>Belo Horizonte – MG · Seg–Sex 7h–18h, Sáb 7h–12h</div></div>
+      <div class="c-item"><span class="ic">🚚</span><div><b>Entrega</b><br>Todo o estado de Minas Gerais e região Sudeste</div></div>
+    </div>
+    <form id="orcForm">
+      <input type="text" id="fNome" placeholder="Seu nome" required>
+      <input type="tel" id="fFone" placeholder="Seu telefone / WhatsApp" required>
+      <textarea id="fPedido" placeholder="O que você deseja pedir? (ex: 5 rolos de arame farpado Fortte 500m para entrega em Betim-MG)" required></textarea>
+      <button class="btn btn-red" type="submit">Enviar pedido pelo WhatsApp →</button>
+      <p style="font-size:.78rem;color:#8fa1b3;margin-top:.4rem">Ao enviar, você será direcionado ao nosso WhatsApp Business com o seu pedido já preenchido.</p>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-grid">
+    <div style="max-width:280px">
+      <h4>belgo<span style="color:var(--red)">arames</span> · BH</h4>
+      <p>Empresa belga de arames, alambrados e itens de agropecuária em Belo Horizonte – MG. Rede Belgo Cercas, fundada em 1998 pela Belgo Arames.</p>
+    </div>
+    <div>
+      <h4>Catálogo</h4>
+      <a href="#catalogo">Arame Farpado</a><a href="#catalogo">Arame Ovalado</a><a href="#catalogo">Galvanizado</a><a href="#catalogo">Fruticultura</a><a href="#catalogo">Cerca Elétrica</a>
+    </div>
+    <div>
+      <h4>Serviços</h4>
+      <a href="#servicos">Visita à obra</a><a href="#servicos">Instalação</a><a href="#servicos">Portões sob medida</a><a href="#pagamento">Formas de pagamento</a><a href="#depoimentos">Avaliações</a>
+    </div>
+    <div>
+      <h4>Contato</h4>
+      <a href="https://wa.me/553298546457" style="font-size:1.15rem;font-weight:800;color:#fff;margin-bottom:.6rem;display:inline-block">📱 (32) 98546-457</a>
+      <a href="mailto:aramesbelga@gmail.com">aramesbelga@gmail.com</a><a href="#contato">Belo Horizonte – MG</a>
+    </div>
+  </div>
+  <div class="copy">© 2026 Belgo Arames BH · Belo Horizonte – Minas Gerais · Preços sujeitos a alteração sem aviso prévio.</div>
+</footer>
+
+<div class="modal" id="modal">
+  <div class="modal-box">
+    <button class="modal-close" onclick="document.getElementById('modal').classList.remove('open')">✕</button>
+    <h3 id="modalNome">Produto</h3>
+    <div class="mp" id="modalPreco"></div>
+    <p style="font-size:.9rem;color:var(--gray);margin-bottom:1rem">Chame no WhatsApp ou preencha o formulário para confirmar disponibilidade e prazo de entrega.</p>
+    <a class="btn btn-red" style="text-align:center" href="https://wa.me/553298546457?text=Olá! Quero pedir o produto: " target="_blank" id="modalWa">Pedir pelo WhatsApp</a>
+  </div>
+</div>
+
+<script>
+
+// formulário de orçamento -> WhatsApp
+document.getElementById('orcForm').addEventListener('submit', function(e) {
+  e.preventDefault();
+  var nome = document.getElementById('fNome').value.trim();
+  var fone = document.getElementById('fFone').value.trim();
+  var pedido = document.getElementById('fPedido').value.trim();
+  var msg = 'Olá! Quero solicitar um orçamento.\n\n*Nome:* ' + nome + '\n*Telefone:* ' + fone + '\n*Pedido:* ' + pedido;
+  window.open('https://wa.me/553298546457?text=' + encodeURIComponent(msg), '_blank');
+  this.reset();
+});
+
+// menu mobile
+document.getElementById('menuBtn').onclick = () => document.getElementById('menu').classList.toggle('open');
+document.querySelectorAll('#menu a').forEach(a => a.onclick = () => document.getElementById('menu').classList.remove('open'));
+
+// filtro do catálogo
+const chips = document.querySelectorAll('.chip');
+const cards = document.querySelectorAll('#grid .card');
+chips.forEach(c => c.onclick = () => {
+  chips.forEach(x => x.classList.remove('active'));
+  c.classList.add('active');
+  const f = c.dataset.filter;
+  cards.forEach(card => card.style.display = (f === 'all' || card.dataset.cat === f) ? '' : 'none');
+});
+
+// modal de pedido
+document.querySelectorAll('.cta').forEach(b => b.onclick = () => {
+  document.getElementById('modalNome').textContent = b.dataset.nome;
+  document.getElementById('modalPreco').textContent = b.dataset.preco;
+  document.getElementById('modalWa').href = 'https://wa.me/553298546457?text=' + encodeURIComponent('Olá! Quero pedir: ' + b.dataset.nome + ' (' + b.dataset.preco + ')');
+  document.getElementById('modal').classList.add('open');
+});
+document.getElementById('modal').onclick = e => { if (e.target.id === 'modal') e.target.classList.remove('open'); };
+</script>
+
+<a class="wa-float left" href="https://wa.me/553298546457?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20quero%20um%20or%C3%A7amento." target="_blank" aria-label="Falar no WhatsApp">💬</a>
+
+</body>
+</html>
